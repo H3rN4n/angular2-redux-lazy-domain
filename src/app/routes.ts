@@ -25,6 +25,10 @@ export const routes: Routes = [
     loadChildren: './+lazy-stats/lazy-stats.module#LazyStatsModule'
   },
   {
+    path: 'movies',
+    loadChildren: './movies/movies.module#MoviesModule'
+  },
+  {
     path: '**',
     component: NotFoundPageComponent
   }

@@ -20,6 +20,9 @@ import { Actions, State, Queries } from 'ngrx-domains';
         <bc-nav-item (activate)="closeSidenav()" routerLink="/stats" icon="assessment" hint="Login">
           Statistics
         </bc-nav-item>
+        <bc-nav-item (activate)="closeSidenav()" routerLink="/movies" icon="movie" hint="Movies">
+          Movies
+        </bc-nav-item>
       </bc-sidenav>
       <bc-toolbar (openMenu)="openSidenav()">
         Book Collection

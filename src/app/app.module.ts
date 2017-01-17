@@ -1,4 +1,4 @@
-import { NgModule, } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
@@ -39,7 +39,7 @@ import { schema } from './db';
     BrowserModule,
     MaterialModule.forRoot(),
     ComponentsModule,
-    RouterModule.forRoot(routes, { useHash: true }),
+    RouterModule.forRoot(routes, { useHash: false }),
 
     /**
      * StoreModule.provideStore is imported once in the root module, accepting a reducer

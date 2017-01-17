@@ -11,6 +11,10 @@ export const schema: DBSchema = {
     books: {
       autoIncrement: true,
       primaryKey: 'id'
-    }
+    },
+    // movies: {
+    //   autoIncrement: true,
+    //   primaryKey: 'id'
+    // }
   }
 };
